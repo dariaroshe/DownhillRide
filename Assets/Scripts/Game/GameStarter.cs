@@ -17,6 +17,7 @@ namespace Game
             
             GameScene.PointsComponent.Initialize(gameModel, GameScene);
             GameScene.TextPointsComponent.Initialize(gameModel, GameScene);
+            GameScene.SaveMaxPointsComponent.Initialize(gameModel, GameScene);
         }
     }
 }

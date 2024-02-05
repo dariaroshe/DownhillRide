@@ -1,6 +1,7 @@
 using DefaultNamespace;
 using Obstacle;
 using Points;
+using SaveGame;
 using UnityEngine;
 
 namespace Game
@@ -15,6 +16,7 @@ namespace Game
 
         public PointsComponent PointsComponent;
         public TextPointsComponent TextPointsComponent;
+        public SaveMaxPointsComponent SaveMaxPointsComponent;
 
         public int SpeedBall;
         public float minXLimit;
