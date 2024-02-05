@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 705507994}
+  m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0.4511277, g: 0.49971843, b: 0.5675166, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -593,7 +593,7 @@ Transform:
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
   m_LocalRotation: {x: 0.31327367, y: -0.35146052, z: -0.17261872, w: 0.8651809}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -791,7 +791,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -30}
+  m_LocalPosition: {x: 0, y: 1, z: -32.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1696,8 +1696,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _obstacle: {fileID: 7865491602885322221, guid: f138804fa74b5c3459cc777fc2e7e7ae, type: 3}
   _distanceSpawnPeriod:
-  - 20
-  - 40
+  - 0.5
+  - 1
+  - 1.5
 --- !u!1 &1737584324
 GameObject:
   m_ObjectHideFlags: 0
@@ -2053,7 +2054,7 @@ Transform:
   m_GameObject: {fileID: 4192133976720397707}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.77, y: 4.42, z: -2.18}
+  m_LocalPosition: {x: -1.77, y: 8.15, z: -2.18}
   m_LocalScale: {x: 1, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
