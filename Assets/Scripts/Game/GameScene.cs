@@ -1,6 +1,7 @@
 using DefaultNamespace;
 using Obstacle;
 using Points;
+using PopupGameOver;
 using SaveGame;
 using UnityEngine;
 
@@ -19,6 +20,7 @@ namespace Game
         public SaveMaxPointsComponent SaveMaxPointsComponent;
 
         public PopupGameOverComponent PopupGameOverComponent;
+        public RestartButtonGameOverComponent RestartButtonGameOverComponent;
 
         public int SpeedBall;
         public float minXLimit;

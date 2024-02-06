@@ -1,7 +1,7 @@
-using System;
+using Game;
 using UnityEngine;
 
-namespace Game
+namespace PopupGameOver
 {
     public class PopupGameOverComponent : GameComponent
     {

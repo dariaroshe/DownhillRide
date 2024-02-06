@@ -25,6 +25,7 @@ namespace Game
             GameScene.SaveMaxPointsComponent.Initialize(gameModel, GameScene);
             
             GameScene.PopupGameOverComponent.Initialize(gameModel, GameScene);
+            GameScene.RestartButtonGameOverComponent.Initialize(gameModel, GameScene);
         }
     }
 }
