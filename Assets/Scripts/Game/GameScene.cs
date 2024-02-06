@@ -18,6 +18,7 @@ namespace Game
         public PointsComponent PointsComponent;
         public TextPointsComponent[] TextPointsComponent;
         public SaveMaxPointsComponent SaveMaxPointsComponent;
+        public TextMaxPointsComponent TextMaxPointsComponent;
 
         public PopupGameOverComponent PopupGameOverComponent;
         public RestartButtonGameOverComponent RestartButtonGameOverComponent;
