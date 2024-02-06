@@ -26,6 +26,7 @@ namespace Game
             
             GameScene.PopupGameOverComponent.Initialize(gameModel, GameScene);
             GameScene.RestartButtonGameOverComponent.Initialize(gameModel, GameScene);
+            GameScene.MenuButtonGameOverComponent.Initialize(gameModel, GameScene);
         }
     }
 }
