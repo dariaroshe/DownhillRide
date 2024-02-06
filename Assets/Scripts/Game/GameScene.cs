@@ -15,8 +15,10 @@ namespace Game
         public SpeedObstacleComponent SpeedObstacleComponent;
 
         public PointsComponent PointsComponent;
-        public TextPointsComponent TextPointsComponent;
+        public TextPointsComponent[] TextPointsComponent;
         public SaveMaxPointsComponent SaveMaxPointsComponent;
+
+        public PopupGameOverComponent PopupGameOverComponent;
 
         public int SpeedBall;
         public float minXLimit;

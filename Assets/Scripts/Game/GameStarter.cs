@@ -16,8 +16,15 @@ namespace Game
             GameScene.SpeedObstacleComponent.Initialize(gameModel, GameScene);
             
             GameScene.PointsComponent.Initialize(gameModel, GameScene);
-            GameScene.TextPointsComponent.Initialize(gameModel, GameScene);
+
+            for (int i = 0; i < GameScene.TextPointsComponent.Length; i++)
+            {
+                GameScene.TextPointsComponent[i].Initialize(gameModel, GameScene);
+            }
+            
             GameScene.SaveMaxPointsComponent.Initialize(gameModel, GameScene);
+            
+            GameScene.PopupGameOverComponent.Initialize(gameModel, GameScene);
         }
     }
 }
