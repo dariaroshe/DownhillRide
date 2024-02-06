@@ -22,6 +22,7 @@ namespace Game
         public PopupGameOverComponent PopupGameOverComponent;
         public RestartButtonGameOverComponent RestartButtonGameOverComponent;
         public MenuButtonGameOverComponent MenuButtonGameOverComponent;
+        public InteractableButtonsGameOverComponent[] InteractableButtonsGameOverComponent;
 
         public int SpeedBall;
         public float minXLimit;

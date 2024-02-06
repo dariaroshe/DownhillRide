@@ -27,6 +27,11 @@ namespace Game
             GameScene.PopupGameOverComponent.Initialize(gameModel, GameScene);
             GameScene.RestartButtonGameOverComponent.Initialize(gameModel, GameScene);
             GameScene.MenuButtonGameOverComponent.Initialize(gameModel, GameScene);
+
+            for (int i = 0; i < GameScene.InteractableButtonsGameOverComponent.Length; i++)
+            {
+                GameScene.InteractableButtonsGameOverComponent[i].Initialize(gameModel, GameScene);
+            }
         }
     }
 }
