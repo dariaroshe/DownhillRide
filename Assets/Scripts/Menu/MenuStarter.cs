@@ -11,6 +11,8 @@ namespace Menu
         private void Start()
         {
             var menuModel = new MenuModel();
+            
+            MenuScene.StartButtonMenuComponent.Initialize(menuModel, MenuScene);
         }
     }
 }
